@@ -1,0 +1,199 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsfonts}
+\usepackage{alphabeta}
+\usepackage{apacite}
+\usepackage{url}
+\usepackage{ragged2e}
+\usepackage{balance}
+
+\setlength{\columnsep}{0.5cm}
+
+
+\usepackage{blindtext}
+
+\begin{document}
+
+
+	\begin{center}
+	\large \textbf{ AgriTech: Wireless Control Irrigation System}\\
+	[.5cm]
+	\small A Study\\
+	\small Presented to the Faculty of the\\
+	\small College of Computer Studies, University of Cebu Lapu-Lapu and Mandaue\\
+	\small Mandaue City, Cebu\\
+	
+	\small In Partial Fulfillment of the Requirements\\
+	\small for the degree Bachelor of Science in Computer Science\\
+	[.5cm]
+	
+	\small By\\
+	[.5cm]
+	\begin{multicols}{2}
+	\textbf {\small Arias, Ann Kimberly C.}\\
+	\small ariaskim55@gmail.com\\
+	\small Hacker\\
+	
+	\textbf {\small Booc, Neckey A.}\\
+	\small nbooc01@gmail.com\\
+	\small Hipster\\
+	
+	\textbf {\small Dieparine, Charlene R.}\\
+	\small cdieparine2@gmail.com\\
+	\small Hacker\\
+    
+    \textbf {\small Jasmin, Nikki}\\
+	\small jasminnikki98@gmail.com\\
+	\small Hustler\\
+	\end{multicols}
+	
+	\textbf {\small Ms. Virginia B. Verdun}\\
+	\small bgie8311@gmail.com\\
+	\small Adviser\\
+
+	\end{center}
+
+\begin{multicols}{2}
+\justify
+
+\begin{center}
+\textbf{\large ABSTRACT OF THE STUDY }\\
+\end{center}
+\hspace*{.5in}AgriTech: Wireless Control Irrigation System is based on irrigation system that commonly used today, instead of using a manual type of irrigation in the farm, Agritech: Wireless Control Irrigation System as the title itself says it’s a wireless control system that aims to override manual type of irrigation system. The target of the system is to lessen the workloads of the farmers.\\
+\hspace*{.5in}The system will create a water level detector to test water level of the farm. Water level detector will be placed in the farmland to measures water level to avoid water waste, to avoid over watering of the farm and under watering of the farm To Engr. Virginia B. Verdun, the group adviser who guide them and teach them how to start the project, what should be done first and helping them finalizing the documents. With her knowledge and skills, it has a great effect in making this thesis done in due time.\\
+\hspace*{.5in}This system will help farmers to have more time in doing their other works. But Even if this technology helps them, and offers best solution to their problem some of them still prefers to use the old type of irrigation system which is the manual because some of them were afraid to adapt to the technology.\\
+\hspace*{.5in}As the researchers of the system, we can assure that the system will be worth of paying for and worth to use. The system may have a lot to improve in the near future and upgrade in to much better version but we can assure that the Agritech will be a solution to the manual type of irrigation system.\\
+
+\begin{center}
+\textbf{\large PROBLEM AND ITS SCOPE }\\
+\textbf{\large INTRODUCTION }\\
+\end{center}
+\begin{flushleft}
+\textbf{\large Rationale of the Study}\\
+\end{flushleft}
+\hspace*{.5in}The technology was rapidly changing; it has given us a good play of cards. It also plays a significant role in developing the agricultural industry. During dry season plants have been engineered using technology. Agriculture has a big part in the primary sector. In the Philippine economy and inclusive growth, it plays an important role.\\
+\hspace*{.5in}Irrigation is the primary use to grow agriculture growth and re-vegetation of disturbed soils during periods of less rainfall. It has been a primary used to increase production, frost protection during cold seasons, and suppressing weed growth in green fields. It raises productivity by providing enough water to plants, to increase yields for the market and responsible for production stability, even under changing weather.\\
+\hspace*{.5in}Despite the help of some public investment year after year, the national irrigation system has always executed below expectations. The following poor performance attributed by the Philippine Institution for Development Studies (PIDS) consultant Dr. Cristina David and Dr. Arlene Inocencio was being optimistic both technical and economic assumptions due to lack of water supply and for lack of maintenance. In year 1980’s and are still present problems encountered were documented.\\
+\hspace*{.5in}A wireless control irrigation system that will amend the existing irrigation. And aims to provide farmers an innovative way of monitoring their farmlands. However, it will amend the poor performance of the existing irrigation system in the Philippines.\\
+\hspace*{.5in}It is a system that automatically waters base on the Water level detected. Users will have a water detector prod that will serve as the controller of the solenoid valve installed in the irrigation system machine. In addition, is the mobile application that will give track to the user about the farmland water level status. It contributes and performs as an exceptional position for a reliable and accurate remedy that caters to the needs of the clients as correctly as legitimate users.\\
+\end{multicols}
+
+\begin{flushleft}
+\textbf{\large Objectives of the Study}
+\end{flushleft}
+\begin{multicols}{2}
+\justify
+\hspace*{.5in}The primary objective of this study is to design and develop a wireless control irrigation system to amend the existing irrigation. To be able to avoid the overwatering state of the farmlands to minimize extreme water consumption. To aid and to provide farmers an innovative way to monitor their farmlands that needs to be irrigated.\\
+\hspace*{.5in}1.Identify the status of the existing irrigation system in Region 7 in terms of:\\
+\hspace*{.7in}	    1.1	Manpower/People,\\
+\hspace*{.7in}	    1.2	Equipment's \\
+\hspace*{.7in}	    1.3	Machine, and \\
+\hspace*{.7in}	    1.4	Method \\
+\hspace*{.5in}2.Design a hardware device prod which monitors the water level of the farmland. \\
+\hspace*{.5in}3.Configure a microcontroller device for wireless control of the watering system and other embedded electronic devices.\\
+\begin{flushleft}
+\justify
+\textbf{\large Scope and Limitations}
+\end{flushleft}
+\hspace*{.3in}A Wireless Control Irrigation System that will amend the existing irrigation. And aims to provide farmers an innovative way of monitoring their farmlands. The system will uphold all the said functionalities upon completion, compressing the following features of:\\
+\hspace*{.5in}Mobile Application\\
+\hspace*{.7in}a. User Account Registration and Login\\
+\hspace*{.5in}     This will be the entering of the identifier to the mobile application so that the user can access the whole system. The user is required to enter four information details in the registration page and upon logging in, user's will be asked to enter two pieces of information, first a user name then a password.\\
+\hspace*{.5in}b. View Farmland Water Level & Status\\
+\hspace*{.7in}     Data gathered by the water level sensor will be fetched from the database and then prints it to the mobile application. This will allow users to view current farmland water level status.\\
+\hspace*{.6in}c. History/Report\\
+\hspace*{.2in}Hardware\\
+\hspace*{.4in} A. Water Level Detector with WIFI\\
+\hspace*{.7in}a.Water Level Detector\\
+\hspace*{.9in}Users will position the water level detector in the farmland to test the water level.  
+The gathered data from the testing will be sent to cloud repository.\\ 
+\hspace*{.7in}b.Data Sender\\
+\hspace*{.9in}Data received from the water level tester will be sent to the cloud repository.\\
+\hspace*{.5in}This data will be evaluated and will be sent to the wireless irrigation system.\\
+\hspace*{.4in} B. Wirless Control Irrigation System\\
+\hspace*{.7in}a.Data Receiver\\
+\hspace*{.9in}A Wi-Fi module that receives data from the database. This data is used to activate or deactivate the solenoid valve controller.\\
+\hspace*{.7in}b.Solenoid Valve Controller\\
+\hspace*{.9in}This is the pipe controller using a solenoid valve that will control the water distribution base on the water level data.\\
+\hspace*{.5in}Hence, the proposed study is limited to the following:\\
+\hspace*{.5in} •    The router has a limited range of distance to connect solenoid controller.\\
+\hspace*{.5in} •    The water level sensor and the solenoid controller must be connected on the same internet connection. \\
+\hspace*{.5in} •    The hardware devices are dependent on internet connectivity. \\
+\end{multicols}
+
+\begin{multicols}{2}
+\centering
+\hspace*{.5in} \\
+\textbf{\large METHODOLOGY }\\
+\textbf{\large Ishikawa Diagram}
+\includegraphics[width=4cm]{Ishikawa.png}
+Figure 3 : \textbf {Ishikawa Diagram of AgriTech}
+\justifying
+\justify
+\textbf{\large Functional Decomposition Diagram}
+\hspace*{.5in}The figure shows above the functionalities supported by the AgriTech. The proposed system aims to the following functionalities.
+\begin{center}
+\includegraphics[scale=0.5, width=\linewidth]{FDD.png}
+Figure 9 : \textbf {Functional Decomposition Diagram of AgriTech}\\
+\end{center}
+\begin{flushleft}
+\justify
+\textbf{\large Use Case}\\
+\hspace*{.5in}A use case is a realistic portrayal of the communications among the components of a framework. A use case is an approach utilized in framework examination to distinguish, clear up, and sort out framework prerequisites.\\
+\includegraphics[scale=0.5, width=\linewidth]{Usecase.png}
+Figure 10 : \textbf {Business Use Case of AgriTech}\\
+\justify
+\textbf{\large Database Design}\\
+\hspace*{.5in}This illustrates the connotation of information as indicated by a database display. The designer figures out what information must be put away and how the information components interrelate.\\
+\includegraphics[scale=0.5, width=\linewidth]{DBdesign.png}
+Figure 20 : \textbf {Database Design of AgriTech}
+
+\justify
+\textbf{\large Entity Relationship Diagram}\\
+\hspace*{.5in}This shows the relationships of entity sets stored in a database. An entity set is a collection of similar entities. It also illustrates the logical structure of the databases.\\
+\begin{center}
+\includegraphics[scale=0.5, width=\linewidth]{ERD.png}
+Figure 21 : \textbf {Entity Relationship Diagram (ERD) of AgriTech}
+\end{center}
+
+\begin{flushleft}
+\textbf{\large Network Topology}
+\end{flushleft}
+\hspace*{.5in}A network topology is the course of action of a system, including its micro-controllers and interlacing lines. To characterized the system, the researchers use figures with interlacing lines to show system communications.\\
+\begin{center}
+\includegraphics[scale=0.5, width=\linewidth]{topology.png}
+Figure 23 : \textbf {Communications Topology of AgriTech}
+\end{center}
+\hspace*{.5in}The figure below shows how the system works. The two micro-controllers will wirelessly communicate to each other via router. The sensor for water level reading will be attached to the first micro-controller then sends data to both cloud repository and second micro-controller. The mobile application will fetch data’s being sent from first micro-controller. The second micro-controller will be the receiver of commands being sent by the first micro-controller. \\
+\end{center}
+
+\newpage
+\begin{flushleft}
+\textbf{\large Conclusions}
+\end{flushleft}
+\hspace*{.5in}•	Therefore, in developing the system the researchers take blood and sweat to make sure that it functions properly. While the researchers conducted a survey, they learned that among 100 respondents there are 98 percent of them agreed to use the system while, 2 percent of them still prefer to use the old method of irrigating their farmlands.\\
+\hspace*{.5in}•	If the system is properly maintained then the system will function properly. System must be checked regularly and thorough and use it properly to avoid system malfunction of the hardware.\\
+\hspace*{.5in}•	The system will benefit those farmers who often visited their farmlands, unlike the old method farmers will not be afraid that they might overwatered or underwatered their farmlands. In addition to that, system will be a great help to their problems.\\
+
+\begin{flushleft}
+\textbf{\large Recommendations}
+\end{flushleft}
+\hspace*{.5in}In order to make the system more effective and work properly, the researchers recommend the following:\\
+\hspace*{.5in}• Make sure that user check the system properly on a regular basis.\\
+\hspace*{.5in}•	Make sure that the water lever sensor is properly handle.\\
+\hspace*{.5in}•	Make sure the irrigation machine is in proper place.\\
+\end{multicols}
+
+\justify
+\begin{multicols}{2}
+\nocite{*}
+\bibliographystyle{apacite}
+\bibliography{References}
+\balance
+\end{multicols}
+
+\end{document}
